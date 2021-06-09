@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		720D7CCA266E6AD900F2032E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D7CC9266E6AD900F2032E /* AppDelegate.swift */; };
+		720D7CCC266E6AD900F2032E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D7CCB266E6AD900F2032E /* SceneDelegate.swift */; };
+		720D7CCE266E6AD900F2032E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D7CCD266E6AD900F2032E /* ViewController.swift */; };
+		720D7CD1266E6AD900F2032E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720D7CCF266E6AD900F2032E /* Main.storyboard */; };
+		720D7CD3266E6ADA00F2032E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720D7CD2266E6ADA00F2032E /* Assets.xcassets */; };
+		720D7CD6266E6ADA00F2032E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720D7CD4266E6ADA00F2032E /* LaunchScreen.storyboard */; };
+		720D7CE2266E6CA300F2032E /* FruitStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D7CE1266E6CA300F2032E /* FruitStore.swift */; };
+		720D7CE4266E6CC300F2032E /* JuiceMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D7CE3266E6CC300F2032E /* JuiceMaker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		720D7CC6266E6AD900F2032E /* Juicy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juicy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		720D7CC9266E6AD900F2032E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		720D7CCB266E6AD900F2032E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		720D7CCD266E6AD900F2032E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		720D7CD0266E6AD900F2032E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		720D7CD2266E6ADA00F2032E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		720D7CD5266E6ADA00F2032E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		720D7CD7266E6ADA00F2032E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		720D7CE1266E6CA300F2032E /* FruitStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitStore.swift; sourceTree = "<group>"; };
+		720D7CE3266E6CC300F2032E /* JuiceMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuiceMaker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		720D7CC3266E6AD900F2032E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		720D7CBD266E6AD900F2032E = {
+			isa = PBXGroup;
+			children = (
+				720D7CC8266E6AD900F2032E /* Juicy */,
+				720D7CC7266E6AD900F2032E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		720D7CC7266E6AD900F2032E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				720D7CC6266E6AD900F2032E /* Juicy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		720D7CC8266E6AD900F2032E /* Juicy */ = {
+			isa = PBXGroup;
+			children = (
+				720D7CE0266E6C6600F2032E /* View */,
+				720D7CDF266E6C5E00F2032E /* Controller */,
+				720D7CDE266E6BEF00F2032E /* Model */,
+				720D7CD7266E6ADA00F2032E /* Info.plist */,
+			);
+			path = Juicy;
+			sourceTree = "<group>";
+		};
+		720D7CDE266E6BEF00F2032E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				720D7CE1266E6CA300F2032E /* FruitStore.swift */,
+				720D7CE3266E6CC300F2032E /* JuiceMaker.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		720D7CDF266E6C5E00F2032E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				720D7CCD266E6AD900F2032E /* ViewController.swift */,
+				720D7CCB266E6AD900F2032E /* SceneDelegate.swift */,
+				720D7CC9266E6AD900F2032E /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		720D7CE0266E6C6600F2032E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				720D7CD2266E6ADA00F2032E /* Assets.xcassets */,
+				720D7CCF266E6AD900F2032E /* Main.storyboard */,
+				720D7CD4266E6ADA00F2032E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		720D7CC5266E6AD900F2032E /* Juicy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 720D7CDA266E6ADA00F2032E /* Build configuration list for PBXNativeTarget "Juicy" */;
+			buildPhases = (
+				720D7CC2266E6AD900F2032E /* Sources */,
+				720D7CC3266E6AD900F2032E /* Frameworks */,
+				720D7CC4266E6AD900F2032E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Juicy;
+			productName = Juicy;
+			productReference = 720D7CC6266E6AD900F2032E /* Juicy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		720D7CBE266E6AD900F2032E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					720D7CC5266E6AD900F2032E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 720D7CC1266E6AD900F2032E /* Build configuration list for PBXProject "Juicy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 720D7CBD266E6AD900F2032E;
+			productRefGroup = 720D7CC7266E6AD900F2032E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				720D7CC5266E6AD900F2032E /* Juicy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		720D7CC4266E6AD900F2032E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720D7CD6266E6ADA00F2032E /* LaunchScreen.storyboard in Resources */,
+				720D7CD3266E6ADA00F2032E /* Assets.xcassets in Resources */,
+				720D7CD1266E6AD900F2032E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		720D7CC2266E6AD900F2032E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720D7CCE266E6AD900F2032E /* ViewController.swift in Sources */,
+				720D7CCA266E6AD900F2032E /* AppDelegate.swift in Sources */,
+				720D7CE2266E6CA300F2032E /* FruitStore.swift in Sources */,
+				720D7CE4266E6CC300F2032E /* JuiceMaker.swift in Sources */,
+				720D7CCC266E6AD900F2032E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		720D7CCF266E6AD900F2032E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				720D7CD0266E6AD900F2032E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		720D7CD4266E6ADA00F2032E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				720D7CD5266E6ADA00F2032E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		720D7CD8266E6ADA00F2032E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		720D7CD9266E6ADA00F2032E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		720D7CDB266E6ADA00F2032E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Juicy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Juicy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		720D7CDC266E6ADA00F2032E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Juicy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Juicy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		720D7CC1266E6AD900F2032E /* Build configuration list for PBXProject "Juicy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720D7CD8266E6ADA00F2032E /* Debug */,
+				720D7CD9266E6ADA00F2032E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		720D7CDA266E6ADA00F2032E /* Build configuration list for PBXNativeTarget "Juicy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720D7CDB266E6ADA00F2032E /* Debug */,
+				720D7CDC266E6ADA00F2032E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 720D7CBE266E6AD900F2032E /* Project object */;
+}
